@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+.contact-heading{
+	display: block;
+	padding: 20px;
+	margin: 0px;
+	color: #B22222;
+	font-size: 40px;
+	
+}
+
+.contact{
+	background-image: linear-gradient(to top, gray,#3fa37e);
+	padding: 20px;
+	margin: 0px;
+}
+.column .fa{
+	color: black;
+	padding-right: 20px;
+}
+#column2{
+	padding: 20px;
+}
+.contact .sub-column a{
+	color:black;
+
+	font-style:none; 
+	display: block;
+	padding: 8px;
+	width: 250px;
+	margin-left: 25px;
+	border-radius: 20px;
+	padding-left: 20px;
+}
+/*.contact .sub-column a:hover{
+	background-color: lightgreen;
+}
+*/
+.contact .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.contact .colmun{
+	font-size: 20px;
+	font-style: none;
+}
+.contact .column h3{
+	font-size: 30px;
+}
+.contact .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text], input[type=email],input[type=number], textarea{
+	padding: 12px;
+	margin-right: 10%;
+	width: 65%;
+  	border: 1px solid #ccc;
+  	border-radius: 50px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+}
+input[type=submit]{
+	color: white;
+	background-color: #4CAF50;
+	padding: 15px;
+	width: 65%;
+	margin-right: 10%;
+	border-radius: 50px;
+	border:none;
+	cursor: pointer;
+	font-size: 14px;
+
+}
+input[type=submit]:hover{
+	background-color: #45a049;
+}
