@@ -1,31 +1,17 @@
-section{
-	width: 100vw;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: 17px;
+.skills{
+	padding-top: 10px;
 	background-color: #F1EDFF;
 }
-
-
-
-
-#skills i span{
-	font-family: sans-serif;
-	font-weight: normal;
-}
 .skills-display{
-	width: 70%;
+	width: 100%
 	height: auto;
 	display: flex;
-	flex-direction: row;
+/*	flex-direction: row;*/
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-bottom: 10px;
-	
+	justify-content: center;
+	padding-bottom: 30px;
+	background-color: #F1EDFF;	
 }
-
 
 
 .behind-box{
