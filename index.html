@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<style>
-
-</style>
-
-	<title>Kumar Shashank </title>
-
-
-	<link rel="icon" type="image/icon" href="Profile.jpg">	
-	
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kumar Shashank</title>
 
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	
-	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<link rel="stylesheet" type="text/css" href="nav-bar.css">
 	<link rel="stylesheet" type="text/css" href="skills.css">
 	<link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
-	<div id="nav-bar">
-		<a href="#Contact">Contact</a>
-		<a href="#Education">Education</a>
-		<a href="#Skills">Skills</a>
-		<a href="#Home">Home</a>		
-		
-	</div>
-
-	<div class="image-card" align="center">
-	<div class="image-contanier">
-		<img src="Profile.jpg">
-	</div>
-		<br><br>
-		<h1>Kumar Shashank</h1>
-	</div>
-
-	<div class="social-top" id="social" align="center">
-
+	<section id="navbar-sec">
+		<div id="nav-bar">
+			<a href="#home">Home</a>
+			<a href="#skills">Skills</a>
+			<a href="#education">Education</a>
+			<a href="#contact">Contact</a>
+		</div>
+	</section>
+	<section id="image-card-sec">
+		<div id="image-card" align="center">
+			<img src="Profile.jpg">
+			<h1>Kumar Shashank</h1>
+		</div>
+	</section>
+	<section id="social-sec">
+			<div class="social-top" align="center">
 				<a class="social-link" href="https://www.instagram.com/1711shashank" title="Instagram" target="_blank">
 					<i class="fa fa-instagram"></i>
 				</a> 
@@ -53,7 +38,7 @@
 				</a> 
 
 
-				<a class="social-link" href="https://api.whatsapp.com/send?phone=918340767018&text=Hi%20Shashank%21%21&source=&data=" title="Whatsapp" target="_blank">
+				<a class="social-link" href="" title="Whatsapp" target="_blank">
 					<i class="fa fa-whatsapp" ></i> 
 				</a>
 
@@ -75,33 +60,34 @@
 				<a class="social-link" href="mailto:1711shashank@gmail.com?Subject=Hello" title="Email" target="_blank">
 					<i class="fa fa-envelope-o" ></i>
 					
-				</a>		<br><br>
-	</div>
+				</a>		
+			</div>
+	</section>
+	<section id="home-sec">
+		<div class="home" id="home">
+			<p>
+				<span>Hi,</span> I am a <span> developer </span> and <span>Computer Vision Enthusiast, </span> Currently in the process of becoming an <span>Engineer</span> at NSEC Kolkata from Information Technology branch. <br><br>
+				I have immense Interest in Exploring New Upcoming Technologies.<br><br>
+				Also I have a basic knowledge of <span>Stocks</span> and <span>Mutal Funds,</span> exploring more for a better understanding of market value and investment. <br><br>
 
-	<div id="home">
-		<p>
-			<span>Hi,</span> I am a <span> developer </span> and <span>Computer Vision Enthusiast, </span> Currently in the process of becoming an <span>Engineer</span> at NSEC Kolkata from Information Technology branch. <br><br>
-			I have immense Interest in Exploring New Upcoming Technologies.<br><br>
-			Also I have a basic knowledge of <span>Stocks</span> and <span>Mutal Funds,</span> exploring more for a better understanding of market value and investment. <br><br>
-
-			Currently obsessed with <span>Web Development.</span> <br><br>
+				Currently obsessed with <span>Web Development.</span> <br><br>
 
 
-			In my free time, I love watching Movies and Web Series. Although I watch all type of video contents but Thriller is my favorite genre. Also a big Marval fan.<br>
-		</p>		
-	</div>
+				In my free time, I love watching Movies and Web Series. Although I watch all type of video contents but Thriller is my favorite genre. Also a big Marval fan.<br>
+			</p>		
+		</div>
+	</section>
+	<section id="skills-sec" class="skills">
 
-	<section id="skills">
-
-            <div class="heading">
+        <div class="heading" align="center">
                 <i class="fas fa-chalkboard-teacher">
                     <span>Skills</span>
                 </i>
 
-            </div>
+        </div>
 
 
-            <div class="skills-display">
+        <div class="skills-display">
 
 			<div class="behind-box">
             		<div id="java-skill" class="upper-box">
@@ -170,8 +156,8 @@
 		</div> 
 		
 	</section>
-
-	<div class="education" id="education">
+	<section id="education-sec">
+		<div class="education" id="education">
 				<h2 class="heading" align="center"> 
 					<i class="fas fa-graduation-cap" ></i>
 						Education
@@ -213,15 +199,16 @@
 				</p>   
 			</div>
 		</div>
-
+	</section>
+	<section id="contact-sec">
 		<div class="contact" id="contact">            
-        <h1 class="heading" align="center"> 
-          <i class="fa fa-user" ></i>
-              Contact
-        </h1>
-
+        	<h1 class="heading" align="center"> 
+          		<i class="fa fa-user" ></i>
+              	Contact
+        	</h1>
+        
         <div class="row">
-          <div  class="column">   
+            <div  class="column">   
 
               <form align="right">
              
@@ -233,9 +220,9 @@
                 
               </form>
               <br>
-          </div>
+            </div>
 
-          <div class="column" id="column2"> <br><br>
+            <div class="column" id="column2"> <br><br>
               
               <h3>Get in Touch</h3>
               <div class="sub-column">
@@ -254,11 +241,10 @@
                   <i class="fa fa-envelope" ></i>1711shashank@gmail.com </a>
                 </div>   
               </div>
-          </div>
-      </div>
+            </div>
+        </div>
 
-      <div class="social-bottom" id="social" align="center">
-
+		<div class="social-bottom" align="center">
 				<a class="social-link" href="https://www.instagram.com/1711shashank" title="Instagram" target="_blank">
 					<i class="fa fa-instagram"></i>
 				</a> 
@@ -269,7 +255,7 @@
 				</a> 
 
 
-				<a class="social-link" href="https://api.whatsapp.com/send?phone=918340767018&text=Hi%20Shashank%21%21&source=&data=" title="Whatsapp" target="_blank">
+				<a class="social-link" href="" title="Whatsapp" target="_blank">
 					<i class="fa fa-whatsapp" ></i> 
 				</a>
 
@@ -291,8 +277,9 @@
 				<a class="social-link" href="mailto:1711shashank@gmail.com?Subject=Hello" title="Email" target="_blank">
 					<i class="fa fa-envelope-o" ></i>
 					
-				</a>		<br><br>
+				</a>		
 		</div>
-    </div>
+	</section>
+
 </body>
 </html>
