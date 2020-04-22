@@ -1,0 +1,86 @@
+.skills{
+	padding-top: 10px;
+	background-color: #F1EDFF;
+}
+.skills-display{
+	width: 100%
+	height: auto;
+	display: flex;
+/*	flex-direction: row;*/
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	background-color: #F1EDFF;	
+}
+
+
+.behind-box{
+	height: 2.3em;
+	width: 12em;
+	background-color: lightgrey;
+	border-radius: 3vw 3vw 3vw 3vw;
+	overflow: auto;   /*Tricky*/
+	box-shadow: 1px 4px 5px darkgrey inset;
+	margin:1.6em;
+}
+
+.upper-box{
+	height: inherit;
+	border-radius: 3vw 0 0 3vw;
+	box-shadow: 1px 0px 10px #838383;
+}
+
+.skill-name{
+	color: white;
+	font-size: auto;
+	position: absolute;
+	font-weight: lighter;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+
+
+#java-skill{
+	width: 85%;
+	background-color: #FCBA7F;
+}
+
+#dsal-skill{
+	width: 60%;
+	background-color: #7bdb7b;
+}
+
+#c-skill{
+	width: 50%;
+	background-color:  #0EAAB8;
+}
+#py-skill{
+	width: 30%;	
+	background-color:  #E97520;
+}
+
+#mf-skill{
+	width: 50%;
+	background-color: #39CEFF;	
+}
+
+#sm-skill{
+	width: 35%;
+	background-color: #7295FA;
+}
+
+#html-skill{
+	width: 90%;
+	background-color: #FF86BC;
+}
+
+#css-skill{
+	width: 62%;
+	background-color: #48BF88;
+}
+
+#js-skill{
+	width: 15%;
+	background-color:#92ecff;
+}
