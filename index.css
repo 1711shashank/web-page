@@ -1,6 +1,7 @@
 html{
 		scroll-behavior: smooth;
 }
+
 body{
 	margin: 0;
 	padding: 0;
@@ -21,13 +22,14 @@ body{
 #nav-bar{
 	background-color: #3fa37e;
 	margin: 0px;
-	height: 6%;
+	height: auto;
   	width: 100%;
   	padding: 10px;
 
+  	position: fixed;
   	top: 0;
-  	overflow: hidden;
-	position: sticky;
+  	display: block;
+  	transition: top 0.5s;
 
 }
 #nav-bar a{
@@ -47,14 +49,15 @@ body{
 /*image-card*/
 #image-card img{
 	margin-top: 6%;
-	margin-bottom: 12px;
+	margin-bottom: 16px;
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 #image-card{
-	font-size: 28px;
+	margin-top: 50px;
+	font-size: 29px;
 	color: blue;
 }
 /*social*/
